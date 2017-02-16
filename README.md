@@ -7,6 +7,7 @@ Servicio 2
 1.	Descargamos de Faitic: Noticias.wsdl.
 
 2.	Creamos el servicio con la herramienta wsdl2java de la siguiente forma:
+
     •	wsdl2java –ss –sd –uri Noticia.wsdl
     •	Nota: esto creará dos carpetas (src y resources) y un build.xml.
 
@@ -17,6 +18,7 @@ Servicio 2
 5.	Con todo esto listo, el servicio está listo para ser usado con el Cliente Java de Stubs o la Client API.
 
 6.	Creamos el cliente utilizando stubs en el cliente, para ello:
+
     • wsdl2java -uri Noticia.wsdl
     •	Genera en src/noticia: NoticiaStub.java y NoticiaCallbackHandler.java
     •	Creamos un paquete noticias.Cliente
