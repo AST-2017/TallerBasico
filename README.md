@@ -2,6 +2,8 @@
 Practica Taller Basico de AST.
 
 Servicio 2
+
+
 1.	Descargamos de Faitic: Noticias.wsdl.
 
 2.	Creamos el servicio con la herramienta wsdl2java de la siguiente forma:
